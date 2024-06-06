@@ -4,7 +4,14 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+.mobile {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 50px;
+  font-size: 90px;
+  display: block;
+}
 body {
   background: #E5E5E5;
   background-image: url("bg.jpg");
@@ -251,8 +258,6 @@ font-family: 'Lobster', cursive;
   left: 0;
 }
 
-/* ============================================== Fire
-*/
 .fuego {
   border-radius: 100%;
   position: absolute;
@@ -288,8 +293,7 @@ font-family: 'Lobster', cursive;
           animation: fuego 0.2s 5.5s infinite;
 }
 
-/* ============================================== Animation Fire
-*/
+
 @-webkit-keyframes fuego {
   0%, 100% {
     background: rgba(254, 248, 97, 0.5);
